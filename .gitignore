@@ -8,7 +8,8 @@ pnpm-debug.log*
 lerna-debug.log*
 
 /node_modules
-dist
+# ignore only root dist folder as in javascript modueles will be additional dist folerds that are required 
+/dist 
 dist-ssr
 *.local
 
